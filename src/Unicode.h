@@ -1,7 +1,7 @@
 #ifndef _UNI_H
 #define _UNI_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
 namespace Fonts {
     extern const uint8_t Unicode00[];

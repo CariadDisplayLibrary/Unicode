@@ -1,15 +1,16 @@
-Source: libdisplaycore-font-unicode
+Source: libcariad-font-unicode
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-font-unicode
+Package: libcariad-font-unicode
+Replaces: libdisplaycore-font-unicode
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Fonts
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: Unicode.h
 Description: Unicode
